@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react-vite";
+import type { Meta, StoryObj } from "../../mocks/storybookTypes";
 import { createKcPageStory } from "../../mocks/KcPageStory";
 
 // Mock kcContext to avoid the TS2304 error

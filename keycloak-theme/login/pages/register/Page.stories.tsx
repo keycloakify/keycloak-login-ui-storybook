@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react-vite";
+import type { Meta, StoryObj } from "../../mocks/storybookTypes";
 import { createKcPageStory } from "../../mocks/KcPageStory";
 import type { Attribute } from "@keycloakify/keycloak-login-ui/KcContext";
 
