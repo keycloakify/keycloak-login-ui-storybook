@@ -1,7 +1,9 @@
-import type { Meta, StoryObj } from "@storybook/react";
+import type { Meta, StoryObj } from "@storybook/react-vite";
 import { createKcPageStory } from "../../mocks/KcPageStory";
 
-const { KcPageStory } = createKcPageStory({ pageId: "login-idp-link-confirm-override.ftl" });
+const { KcPageStory } = createKcPageStory({
+    pageId: "login-idp-link-confirm-override.ftl"
+});
 
 const meta = {
     title: "login/login-idp-link-confirm-override.ftl",
@@ -12,6 +14,4 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {
-    render: () => <KcPageStory />
-};
+export const Default: Story = {};
