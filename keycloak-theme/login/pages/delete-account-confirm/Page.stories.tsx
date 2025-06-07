@@ -1,5 +1,4 @@
-import type { Meta, StoryObj } from "../../mocks/storybookTypes";
-import { createKcPageStory } from "../../mocks/KcPageStory";
+import { createKcPageStory, type Meta, type StoryObj } from "../../mocks/KcPageStory";
 
 const { KcPageStory } = createKcPageStory({ pageId: "delete-account-confirm.ftl" });
 

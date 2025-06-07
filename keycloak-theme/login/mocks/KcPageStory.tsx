@@ -1,7 +1,10 @@
+// NOTE: This is not a file that you typically want to modify.
+
 import type { DeepPartial } from "@keycloakify/keycloak-login-ui/tools/DeepPartial";
 import { getKcContextMock } from "./getKcContextMock";
 import type { KcContext } from "../KcContext";
 import KcPage from "../KcPage";
+export type { Meta, StoryObj } from "../../kc.gen";
 
 export function createKcPageStory<PageId extends KcContext["pageId"]>(params: { pageId: PageId }) {
     const { pageId } = params;
