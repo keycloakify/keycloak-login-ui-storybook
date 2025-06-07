@@ -1,6 +1,6 @@
 {
     "name": "@keycloakify/keycloak-login-ui-storybook",
-    "version": "250004.0.3",
+    "version": "250004.0.4",
     "description": "Storybook stories for @keycloakify/keycloak-login-ui",
     "repository": {
         "type": "git",
