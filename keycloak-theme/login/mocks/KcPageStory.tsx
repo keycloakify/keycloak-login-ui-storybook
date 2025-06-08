@@ -1,6 +1,6 @@
 // NOTE: This is not a file that you typically want to modify.
 
-import type { DeepPartial } from "@keycloakify/keycloak-login-ui/tools/DeepPartial";
+import type { DeepPartial } from "@keycloakify/login-ui/tools/DeepPartial";
 import { getKcContextMock } from "./getKcContextMock";
 import type { KcContext } from "../KcContext";
 import KcPage from "../KcPage";

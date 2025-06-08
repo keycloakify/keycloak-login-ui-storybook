@@ -1,5 +1,5 @@
 import { createKcPageStory, type Meta, type StoryObj } from "../../mocks/KcPageStory";
-import type { Attribute } from "@keycloakify/keycloak-login-ui/KcContext";
+import type { Attribute } from "@keycloakify/login-ui/KcContext";
 
 const { KcPageStory } = createKcPageStory({ pageId: "register.ftl" });
 
